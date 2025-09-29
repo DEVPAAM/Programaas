@@ -1,83 +1,137 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Programas</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background: #f0f0f0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-        }
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-        }
-        .menu {
-            display: flex;
-            gap: 10px;
-            margin: 20px 0;
-            flex-wrap: wrap;
-        }
-        .menu a {
-            padding: 10px 15px;
-            background: #3498db;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .program-card {
-            background: #f8f9fa;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 5px;
-        }
-    </style>
+    <title>Blog Personal</title>
+    <!-- Icono de la pestaña -->
+    <link rel="icon" type="image/png" href="references/avatar-user.png">
 </head>
 <body>
-    <div class="container">
-        <h1>Página de Programas</h1>
-        <p>Bienvenido a la página de programas. Selecciona una opción:</p>
-        
-        <div class="menu">
-            <a href="index.html">Inicio</a>
-            <a href="./CalcularCuadrado/index.html">Cuadrado</a>
-            <a href="./Calculadora/index.html">Calculadora</a>
-            <a href="./Nomina/index.html">Nómina</a>
-            <a href="./devpaam.github.io/index.html">Blog</a>
-        </div>
+        <link rel="stylesheet" href="style/style.css">
+    
+    <!-- Título principal centrado y con estilo permitido -->
+    <h1 style="text-align:center; color:rgb(139, 0, 44); text-decoration:underline;">
+        Bienvenido a mi Blog
+    </h1>
 
-        <h2>¡Bienvenido!</h2>
-        <p>Has regresado a la página de inicio. Selecciona un programa para continuar.</p>
-        
-        <div class="program-card">
-            <h3>Calculadora de Cuadrado</h3>
-            <a href="./CalcularCuadrado/index.html">Abrir Cuadrado</a>
-        </div>
-        
-        <div class="program-card">
-            <h3>Calculadora</h3>
-            <a href="./Calculadora/index.html">Abrir Calculadora</a>
-        </div>
-        
-        <div class="program-card">
-            <h3>Sistema de Nómina</h3>
-            <a href="./Nomina/index.html">Abrir Nómina</a>
-        </div>
-        
-        <div class="program-card">
-            <h3>Blog Personal</h3>
-            <a href="./devpaam.github.io/index.html">Abrir Blog</a>
-        </div>
+    <!-- Imagen principal (ajusta la ruta según tu carpeta de imágenes) -->
+    <div align="center">
+        <img src="https://i.pinimg.com/1200x/e7/4c/d9/e74cd92c8a6f23aa1241e2e3a3d41a70.jpg" alt="Imagen que me define " width="300">
+        <!-- Cambia el texto y la ruta de la imagen según tu archivo -->
     </div>
+
+    <!-- Línea divisoria para separar secciones -->
+    <hr>
+
+    <!-- Sección sobre mi -->
+    <h2>Conoceme</h2>
+    <p>
+        <!-- Aquí puedes escribir sobre ti, tus intereses, estudios, etc. -->
+        <!-- Ejemplo: -->
+        ¡Hola! Soy Pam, estudiante de TI, área Desarrollo de Software. Soy una persona apasionada por la tecnología 
+        y el arte <template></template>
+        <!-- Cambia este texto por tu propia descripción -->
+    </p>
+
+    <!-- Rutina diaria o historia personal -->
+    <h2>Acerca de mi</h2>
+    <p>
+        <!-- Aquí puedes contar cómo es tu día a día, tus hábitos, etc. -->
+        <!-- Ejemplo: -->
+        Cada mañana agradezco por la oportunidad de poder vivir mi día a día.
+        <!-- Cambia este texto por tu propia rutina -->
+    </p>
+
+    <!-- Lista de pasatiempos (puedes usar ul o ol) -->
+    <h3>Estos son mis pasatiempos</h3>
+    <ul>
+        <li>Leer libros en línea</li>
+        <li>Escuchar música</li>
+        <li>Jugar videojuegos tipo moba</li>
+        <li>Tocar guitarra acustica</li>
+        <li>Volver a ver mis series favoritas</li>
+        <li>Hacer ejercicio</li>
+
+    </ul>
+
+    <!-- Tabla de horarios o actividades -->
+    <h3>Principales Actividades Diarias</h3>
+    <table border="1" align="center">
+        <tr>
+            <th>Día</th>
+            <th>Hobbies</th>
+        </tr>
+        <tr>
+            <td>Lunes</td>
+            <td>Ejercicio</td>
+        </tr>
+        <tr>
+            <td>Miercoles</td>
+            <td>Guitarra</td>
+        </tr>
+        <tr>
+            <td>Viernes</td>
+            <td>Leer</td>
+        </tr>
+        <tr>
+            <td>Sabado</td>
+            <td>Videojuegos</td>
+        </tr>
+        <!-- Puedes agregar más filas según tus actividades -->
+    </table>
+
+    <!-- Hipervínculos a tus redes sociales -->
+    <h3>Sigueme en mis redes sociales </h3>
+    <!-- Agrega el sticker antes de la lista, ajusta el ancho si lo deseas -->
+    <div align="center">
+        <img src="references/influencer.png" alt="Sticker influencer" width="60">
+        <!-- Cambia el ancho si quieres que el sticker sea más grande o pequeño -->
+    </div>
+    <ul>
+        <li>
+            <a href="https://www.youtube.com/@Hina23Naru" target="_blank">Youtube</a>
+            <!-- Cambia el enlace por tu perfil real -->
+        </li>
+    </ul>
+
+    <!-- Sección de comentarios (formulario para que los usuarios comenten) -->
+    <h2>Deja tu opinión</h2>
+    <form action="#" method="post">
+        <!-- Nombre del usuario -->
+        <label for="usuario">Usuario:</label><br>
+        <input type="text" id="usuario" name="usuario" required><br><br>
+
+        <!-- Correo electrónico -->
+        <label for="correo">Correo:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <!-- Comentario -->
+        <label for="comentario">Comentario:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="40" required></textarea><br><br>
+
+        <!-- Botón para enviar -->
+        <input type="submit" value="Comentar">
+    </form>
+    <!-- Nota: El formulario no guarda comentarios, solo muestra cómo sería -->
+
+    <hr>
+
+    <!-- Créditos de iconos y stickers usados en la página -->
+    <hr>
+    <div align="center">
+        <p style="font-size:small;">
+            Icono: 
+            <a href="https://www.flaticon.com/free-icons/avatar-user" title="avatar user icons">
+                Avatar user icons creados por Loka Design - Flaticon
+            </a>
+            <br>
+            Sticker: 
+            <a href="https://www.flaticon.com/free-stickers/celebrity" title="celebrity stickers">
+                Celebrity stickers creados por Stickers - Flaticon
+            </a>
+        </p>
+    </div>
+
+    <!-- Fin del cuerpo del documento -->
 </body>
 </html>
